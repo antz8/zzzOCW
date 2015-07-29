@@ -1,0 +1,2 @@
+HARAP DIBACA!
+- ganti style.css -> .search -> background url
