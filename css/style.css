@@ -5,38 +5,10 @@ body {
 }
 
 .header {
-	width: 960px;
+	width: 940px;
 	height: auto;
 	background-color: #FFF;
 	margin: 0 auto;
-}
-
-.header ul {
-	margin-right: 40px;
-	float: right;
-	font-family: Lato;
-	font-weight: 800;
-	list-style: none;
-	font-size: 15pt;
-	text-align: center;
-	display: inline-table;
-}
-
-.header ul li {
-	color: #e3e3e3;
-	float: left;
-	width: 140px;
-	height: 50px;
-	line-height: 55px;
-}
-
-.header ul li a {
-	color: #000;
-	text-decoration: none;
-}
-
-.header ul li a:hover {
-	color: #e8e8e8;
 }
 
 .search {
@@ -45,16 +17,58 @@ body {
 	position:relative;
 	padding: 0;
 	margin-left: 0;
-	background:#a7242e url(file:///D:/Ananta%20Files/zzz/images/diamond2.png) repeat-x center;
+	//background:#a7242e url(file:///D:/Ananta%20Files/zzz/images/diamond2.png) repeat-x center;
+	background-color:#898183;
 	height:42px;
 }
 
-.searchbox {
-	text-align: right;
-	padding-top: 10px;
-	padding-right: 240px;
+.search .navBody {
+	padding-top: 0px;
+	width: 940px;
+	margin: 0 auto;
+	background-color: blue;
 }
 
-#searchbox {
-	border-radius: 0.4em;
+.search .navBody .nav {
+	float: left;
+	text-align: left;
+	//background-color: yellow;
+	width: 700px;
+}
+
+.search .navBody .nav ul {
+	font-size: 14pt;
+	margin: 0 0 0 0;
+	padding-left: 0;
+	list-style: none;
+	display: inline-table;
+}
+
+.search .navBody .nav ul li {
+	float: left;
+	width: 130px;
+	height: 38px;
+	text-align: center;
+	line-height: 23px;
+	padding: 0 0 0 0;
+	margin:auto;
+
+}
+
+.search .navBody .nav ul li a {
+	padding-top: 10px;
+	display: block;
+	text-decoration: none;
+	height: 32px;
+	color: #fff;
+}
+
+.search .navBody .nav ul li a:hover {
+	color: #fff;
+	background-color: #4d4446;
+}
+
+.search .navBody .searchbox {
+	padding-top: 10px;
+	float: right;
 }
