@@ -1,5 +1,7 @@
 body {
-	background-color: #FFF;
+	background-image: url("file:///D:/Ananta%20Files/zzz/images/bg.jpg");
+	background-repeat: repeat-x repeat-y;
+	background-position: absolute;
 	margin: 0;
 	padding: 0;
 }
@@ -7,8 +9,9 @@ body {
 .header {
 	width: 940px;
 	height: auto;
-	background-color: #FFF;
 	margin: 0 auto;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 .search {
@@ -17,7 +20,6 @@ body {
 	position:relative;
 	padding: 0;
 	margin-left: 0;
-	//background:#a7242e url(file:///D:/Ananta%20Files/zzz/images/diamond2.png) repeat-x center;
 	background-color:#898183;
 	height:42px;
 }
