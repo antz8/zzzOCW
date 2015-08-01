@@ -4,12 +4,18 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
+
+	<link rel="stylesheet" href="css/anythingslider.css">
+	<script src="js/jquery.anythingslider.js"></script>
+
+	<!-- jQuery for slider(required) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
 
 	<title></title>
 </head>
 <body>
-	<img src="/images/bg.jpg" alt="">
 	<div class="header">
 		<img src="images/logo.png">
 		<div class="login">
@@ -38,10 +44,29 @@
 	</div>
 	<div class="container">
 		<div class="slider">
-									<!-- ISI SLIDER DI SINI -->
+			<ul id="slider">
+				<li><img src="images/slide1.jpg" alt=""></li>
+				<li><img src="images/slide2.jpg" alt=""></li>
+				<li><img src="images/slide3.jpg" alt=""></li>
+			</ul>
 		</div><br>
 		<div class="news">
-			<div class="left"></div>
+			<div class="left">
+				<div class="ribbon-wrapper">
+					<div class="ribbon-front">
+						<h1>REKOMENDASI KURSUS</h1>
+					</div>
+					<div class="ribbon-edge-topleft"></div>
+					<div class="ribbon-edge-topright"></div>
+					<div class="ribbon-edge-bottomleft"></div>
+					<div class="ribbon-edge-bottomright"></div>
+					<div class="ribbon-back-left"></div>
+					<div class="ribbon-back-right"></div>
+				</div>
+				<div class="leftContent">
+					
+				</div>
+			</div>
 			<div class="right"></div>
 		</div>
 	</div>
