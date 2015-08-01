@@ -127,3 +127,47 @@ body {
 	height: 1200px;
 	background-color: #e3e3e3;
 }
+
+.container .slider {
+	width: 940px;
+	height: 400px;
+	background-color: #154493;
+}
+
+.container .news {
+	width: 940px;
+	height: 730px;
+	background-color: green;
+}
+
+.container .news .left {
+	width: 600px;
+	height: 700px;
+	background-color: yellow;
+	float: left;
+}
+
+.container .news .right {
+	width: 340px;
+	height: 700px;
+	background-color: blue;
+	float: left;
+}
+
+.footer {
+	width: 100%;
+	position:relative;
+	padding: 0;
+	margin-left: 0;
+	background-color:#a0242c;
+	height:250px;
+}
+
+.ribbonFooter {
+	width: 100%;
+	position:relative;
+	padding: 0;
+	margin-left: 0;
+	background-color:#2b2121;
+	height:40px;
+}
